@@ -16,7 +16,7 @@ class MyCall {
 	function __construct(){
 		self::$agent = "Mozilla/5.0 (Linux; Android 8.1.0; CPH1853) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36";
 		$this->run();}
-		var $logo = "\n   \e[37m╭━╱▔▔▔▔╲━╮\n   \e[37m╰╱╭\e[31m▅\e[37m╮╭\e[31m▅\e[37m╮╲╯\n    ▏╰┈▅▅┈╯▕          \e[37mSpaming Call Termux\n    \e[37m╲┈\e[31m╰━━╯\e[37m┈╱        made by \e[34mKingtebe \e[37m© 2021\n    ╱╱▔╲╱▔╲╲                ƪ(‾_‾)ʃ\n  \e[37m╭━╮\e[31m▔▏\e[34m┊┊\e[31m▕▔\e[37m╭━╮\n  \e[37m┃\e[34m┊\e[37m┣▔╲\e[34m┊┊\e[37m╱▔┫\e[34m┊\e[37m┃\n  \e[37m╰━━━━\e[37m╲╱\e[37m━━━━╯\n\n \e[37m[\e[34m!\e[37m] Gunakan Dengan Bijak\n";
+		var $logo = "\n   \e[37m╭━╱▔▔▔▔╲━╮\n   \e[37m╰╱╭\e[31m▅\e[37m╮╭\e[31m▅\e[37m╮╲╯\n    ▏╰┈▅▅┈╯▕          \e[37mSpaming Call Termux\n    \e[37m╲┈\e[31m╰━━╯\e[37m┈╱        made by \e[34mhackerRRGX24 \e[37m© 2021\n    ╱╱▔╲╱▔╲╲                ƪ(‾_‾)ʃ\n  \e[37m╭━╮\e[31m▔▏\e[34m┊┊\e[31m▕▔\e[37m╭━╮\n  \e[37m┃\e[34m┊\e[37m┣▔╲\e[34m┊┊\e[37m╱▔┫\e[34m┊\e[37m┃\n  \e[37m╰━━━━\e[37m╲╱\e[37m━━━━╯\n\n \e[37m[\e[34m!\e[37m] Gunakan Dengan Bijak\n";
 
 	public function run(){
 		try {
@@ -43,7 +43,7 @@ class MyCall {
 
 			echo " \e[37m[\e[33m!\e[37m] Gunakan lagi ?\n \e[37m[\e[33my\e[37m/\e[33mn\e[37m]\n \e[33m•\e[37m> : ";
 			$call = trim(fgets(STDIN));
-			if($call == "y" or $call == "Y") { $this->run();} else if($call == "n" or $call == "N") { exit("\n >>> Thank And Jangan Lupa Subscribe My Chanel FaaL TV <<<\n\n");} else { exit("\nBy Goblokkk !!\n\n");}
+			if($call == "y" or $call == "Y") { $this->run();} else if($call == "n" or $call == "N") { exit("\n >>> makasih jangan lupa bahagia <<<\n\n");} else { exit("\nBy Goblokkk !!\n\n");}
 
 		} catch (Exception $e) {
 			echo $e->getMessage();}}}
